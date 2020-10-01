@@ -14,7 +14,7 @@ namespace fundamentals
             st.Push(6);
             st.Push(s1);  //push in stack
             st.Push(s2);
-
+            //foreach loop
             foreach (var ie in st)
             {                                             //use var in for loop with stack object
                 Console.WriteLine(ie);                    //retrieving from stack 
