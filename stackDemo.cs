@@ -10,8 +10,10 @@ namespace fundamentals
             Stack st = new Stack();
             string s1 = "hiii";
             string s2 = "hello";
+            //start pushing in stack
             st.Push(5);
             st.Push(6);
+            
             st.Push(s1);  //push in stack
             st.Push(s2);
             //foreach loop
